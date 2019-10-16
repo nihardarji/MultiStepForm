@@ -23,9 +23,9 @@ This is a tangible way for you to show us:
 
 ## The Mission Specs
 
-You will find the mockup of what you'll be building in the assets directory
+The images of what we'll be building are provided on this repo
 
-#### 1: Build the page according to the mockup provided in /assets ####
+#### 1: Build the page according to the mockup provided ####
 * I can toggle the help header
 * I can only click the NEXT button if all the required fields have been filled (we suggest you add field validation too!)
 
