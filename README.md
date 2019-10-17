@@ -1,4 +1,4 @@
-# Camino Financial's Take Home Project
+# Camino Financial's Frontend Take Home Project
 
 
 
@@ -43,7 +43,9 @@ The images of what we'll be building are provided on this repo
 * Your readme should let us know how to view your app
 * Please remember to commit often so we can see how you're tracking...
 
-## How to get in touch
+#### 6 (Bonus): Deploy your app to the world ####
+* Deploy your app to heroku or any server of your choice for a live demo
 
-If you have any questions, concerns or suggestions please feel free to ping us.
+
+If you have any questions, concerns or suggestions please feel free to ping us on the recruiting platform.
 Happy coding! Camino Financial is a pretty awesome place to work, We hope to see you soon! 
