@@ -1,51 +1,55 @@
-# Camino Financial's Frontend Take Home Project
-
-
-
-Hello and welcome to Camino Financial take home project!
-
-## The Mission
-
-The mission, should you choose to accept, is to build a loan application page using React and Redux.
 
 ## Getting started
 
-We suggest you use create-react-app to quickly set up your app : 
-https://github.com/facebook/create-react-app
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Why a take-home?
+## Dependencies Used 
 
-This is a tangible way for you to show us:
+1. react: 16.13.1,
+2. react-dom: 16.13.1,
+3. react-redux: 7.2.1,
+4. react-scripts: 3.4.1,
+5. redux: 4.0.5,
+6. redux-devtools-extension: 2.13.8,
+7. redux-thunk: 2.3.0
 
-* That you know react and redux.
-* That you're excellent at making web apps look like the designs given to you.
-* That your code is extendable & easy to read.
+## Dev Dependencies for Testing
+1. enzyme: 3.11.0,
+2. enzyme-adapter-react-16: 1.15.2,
+3. jest-enzyme: 7.1.2
 
-## The Mission Specs
+## Styles
 
-The images of what we'll be building are provided on this repo
+1. Bootstrap
+2. FontAwesome
 
-#### 1: Build the page according to the mockup provided ####
-* I can toggle the help header
-* I can only click the NEXT button if all the required fields have been filled (we suggest you add field validation too!)
+## Deployed Using Netlify
 
-#### 2: Use React with Redux  ####
-* We would like you to use Redux for state management
-* Clicking 'NEXT' should update your redux store
+## Steps to run the project
 
-#### 3: Build reusable components  ####
-* Even though you are only building step 1 of this loan application, you might have noticed there are 3 steps total... keep this in mind when building your components!
+In the project directory (camino-app ), you can run the following commands:
 
-#### 4: Test your work  ####
-* Don't forget to write tests, use the testing framework of your choice
+### `cd camino-app`
+Navigate to camino-app
 
-#### 5: Help us review your work ####
-* Your readme should let us know how to view your app
-* Please remember to commit often so we can see how you're tracking...
+### `npm install`
 
-#### 6 (Bonus): Deploy your app to the world ####
-* Deploy your app to heroku or any server of your choice for a live demo
+Installs the node modules required for the project <br/>
+
+### `npm start`
+
+Runs the project on http://localhost:3000
 
 
-If you have any questions, concerns or suggestions please feel free to ping us on the recruiting platform.
-Happy coding! Camino Financial is a pretty awesome place to work, We hope to see you soon! 
+### `npm run test`
+
+Launches the test runner in the interactive watch mode.<br />
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
