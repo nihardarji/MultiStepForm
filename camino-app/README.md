@@ -1,24 +1,49 @@
+
+## Getting started
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Dependencies Used 
 
-In the project directory, you can run:
+1. react: 16.13.1,
+2. react-dom: 16.13.1,
+3. react-redux: 7.2.1,
+4. react-scripts: 3.4.1,
+5. redux: 4.0.5,
+6. redux-devtools-extension: 2.13.8,
+7. redux-thunk: 2.3.0
+
+## Dev Dependencies for Testing
+1. enzyme: 3.11.0,
+2. enzyme-adapter-react-16: 1.15.2,
+3. jest-enzyme: 7.1.2
+
+## Styles
+
+1. Bootstrap
+2. FontAwesome
+
+## Deployed Using Netlify
+
+## Steps to run the project
+
+In the project directory, you can run the following commands:
 
 
 ### `npm install`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Installs the node modules required for the project <br/>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### `npm start`
 
-### `yarn test`
+Runs the project on http://localhost:3000
+
+
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -26,4 +51,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
